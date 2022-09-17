@@ -1,0 +1,111 @@
+body{
+    background-color: cadetblue;
+}
+
+nav{
+    background-color: aquamarine;
+   
+    display: flex;
+    
+}
+ nav h1{
+  
+ }
+nav ul {
+
+    margin:10px;
+    list-style-type: none;
+   display: flex;
+   justify-content:flex-end;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: aliceblue;
+    padding:10px
+}
+
+nav ul li a:hover{
+    background-color: bisque;
+}
+
+li{
+    margin:10px;
+    justify-content: flex-end;
+}
+ 
+
+/* about body css */
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.about-info p{
+    width: 95%;
+    background-color: antiquewhite;
+    font-size: 18px;
+    text-align: justify;
+    padding:10px;
+}
+
+.welcome{
+    font-size: 40px;
+    background-color: aqua;
+}
+
+.heading{
+    text-align: left;
+}
+
+img{
+    margin-top:100px;
+    height: 550px;
+    width: 600px;
+}
+
+.about-content{
+    width: 45%;
+    
+}
+/* footer */
+/* footer starts here */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: black;
+    color:white;
+}
+.fa{
+    font-size: 25px;
+    background-color: blue;
+    color:white;
+    border-radius: 50%;
+    padding:10px;
+    margin:10px;
+}
+.nav-links{
+    margin-top: 20px;
+    padding:10px;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+   
+}
+.contact{
+    margin-top: 20px;
+   
+}
+/* .div{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+} */
